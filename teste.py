@@ -1,11 +1,12 @@
 print("Olá Mundo!!!")
-valor = 5.5
-nome = 'João'
-print(valor) 
-print(type(valor))
-print(type(nome))
+VALOR = 5.5
+NOME = 'João'
+print(VALOR)
+print(type(VALOR))
+print(type(NOME))
 
-def digaOla():
-    print('Olá ' + input("Qual seu nome: ") + '\nidade: ' + str(valor+10))
+def diga_ola():
+    #O que faz o diga ola
+    print('Olá ' + input("Qual seu nome: ") + '\nidade: ' + str(VALOR+10))
 
-digaOla()
+diga_ola()
